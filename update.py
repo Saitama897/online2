@@ -48,8 +48,8 @@ if UPSTREAM_REPO is not None:
         srun(["rm", "-rf", ".git"])
 
     update = srun([f"git init -q \
-                     && git config --global user.email PleaseMakeLeechBot@Gmail.com \
-                     && git config --global user.name strongson \
+                     && git config --global user.email eyasin2564@gmail.com \
+                     && git config --global user.name saitama897\
                      && git add . \
                      && git commit -sm update -q \
                      && git remote add origin {UPSTREAM_REPO} \
