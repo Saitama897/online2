@@ -37,7 +37,7 @@ try:
     if len(UPSTREAM_REPO) == 0:
        raise TypeError
 except:
-    UPSTREAM_REPO = "https://github.com/Strongson/helios-modified- "
+    UPSTREAM_REPO = "https://github.com/Saitama897/online2 "
 try:
     if len(UPSTREAM_BRANCH) == 0:
        raise TypeError
@@ -48,8 +48,8 @@ if ospath.exists('.git'):
     srun(["rm", "-rf", ".git"])
 
 update = srun([f"git init -q \
-                 && git config --global user.email PleaseMakeLeechBot@Gmail.com \
-                 && git config --global user.name strongson\
+                 && git config --global user.email eyasin2564@gmail.com \
+                 && git config --global user.name saitama897\
                  && git add . \
                  && git commit -sm update -q \
                  && git remote add origin {UPSTREAM_REPO} \
